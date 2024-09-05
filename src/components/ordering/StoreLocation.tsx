@@ -2,6 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import {Card} from '../global';
 import {CHAT_ICON, STORE_BLACK_ICON} from '../../assets';
+import {COLOR} from '../../constant';
 
 interface StoreLocationProps {
   data: any;
@@ -9,6 +10,7 @@ interface StoreLocationProps {
 
 export const StoreLocation: React.FC<StoreLocationProps> = props => {
   const {data} = props;
+
   return (
     <Card>
       <View style={styles.storeInfoContainer}>
@@ -48,12 +50,12 @@ const styles = StyleSheet.create({
   storeName: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#464646',
+    color: COLOR.textHardColor,
     fontFamily: 'NotoSansThai-Regular',
   },
   storeBranch: {
     fontSize: 12,
-    color: '#767676',
+    color: COLOR.textSubColor,
     marginTop: 2,
     fontFamily: 'NotoSansThai-Regular',
   },

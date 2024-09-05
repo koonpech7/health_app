@@ -21,7 +21,6 @@ export const SummarizeOrder: React.FC<SummarizeOrderProps> = props => {
 
       <View style={styles.row}>
         <Text style={styles.label}>รวมการสั่งซื้อ:</Text>
-
         <View style={{flexDirection: 'row', gap: 5}}>
           <Text style={styles.price}>{`฿${data.totlePrice}`}</Text>
           <Text style={styles.discountedPrice}>{`฿${data.discount}`}</Text>
@@ -30,7 +29,6 @@ export const SummarizeOrder: React.FC<SummarizeOrderProps> = props => {
 
       <View style={styles.row}>
         <Text style={styles.label}>ค่าจัดส่ง:</Text>
-
         <View style={{flexDirection: 'row', gap: 5}}>
           <Text style={styles.price}>{`฿${data.shippingPrice}`}</Text>
           <Text
