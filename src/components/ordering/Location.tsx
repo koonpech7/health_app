@@ -24,7 +24,6 @@ export const Location: React.FC<LocationProps> = props => {
         </Text>
         <Text style={styles.addressText}>{data.tell}</Text>
         <Text style={styles.addressText}>{data.note}</Text>
-
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>ที่อยู่ตั้งต้น</Text>

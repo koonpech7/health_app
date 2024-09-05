@@ -11,6 +11,7 @@ interface OrderDetailsProps {
 
 export const OrderDetails: React.FC<OrderDetailsProps> = props => {
   const {data} = props;
+
   return (
     <Card header={data.headBill}>
       <View style={styles.expirationContainer}>
@@ -102,7 +103,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginTop: 8,
-    backgroundColor: '#fff',
+    backgroundColor: COLOR.white,
     borderRadius: 10,
   },
   totalLabel: {

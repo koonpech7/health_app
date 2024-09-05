@@ -8,7 +8,6 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native';
-import {PAOTANG} from '../../assets';
 import {COLOR} from '../../constant';
 
 interface PaymentsType {

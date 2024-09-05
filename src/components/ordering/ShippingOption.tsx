@@ -71,12 +71,12 @@ const OptionItem: React.FC<OptionItemProps> = props => {
 
 const styles = StyleSheet.create({
   optionContainer: {
-    backgroundColor: '#fff',
+    backgroundColor: COLOR.white,
     borderRadius: 10,
     paddingHorizontal: 16,
     marginBottom: 12,
     borderWidth: 2,
-    borderColor: '#f5f5f5',
+    borderColor: COLOR.background,
     height: 100,
     paddingTop: 13,
   },
@@ -97,20 +97,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   iconWrapper: {
-    backgroundColor: '#ECF3FF',
+    backgroundColor: COLOR.buttonSoftColor,
     padding: 10,
     borderRadius: 50,
   },
   optionText: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#464646',
+    color: COLOR.textHardColor,
     fontFamily: 'NotoSansThai-Regular',
   },
   optionTextInactive: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#767676',
+    color: COLOR.textSubColor,
     fontFamily: 'NotoSansThai-Regular',
   },
   badge: {
@@ -129,13 +129,13 @@ const styles = StyleSheet.create({
   },
   optionSubtitle: {
     fontSize: 14,
-    color: '#767676',
+    color: COLOR.textSubColor,
     marginVertical: 4,
     fontFamily: 'NotoSansThai-Regular',
   },
   optionSubtitleInactive: {
     fontSize: 14,
-    color: '#767676',
+    color: COLOR.textSubColor,
     marginVertical: 4,
     fontWeight: '400',
     fontFamily: 'NotoSansThai-Regular',
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
   },
   originalPrice: {
     fontSize: 18,
-    color: '#767676',
+    color: COLOR.textSubColor,
     textDecorationLine: 'line-through',
     fontWeight: 'bold',
     fontFamily: 'NotoSansThai-Regular',

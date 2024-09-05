@@ -12,7 +12,6 @@ export const Card: React.FC<CardProps> = props => {
 
   return (
     <View style={styles.card}>
-      {/* If a header prop is passed, display the blue header */}
       {header && (
         <View style={styles.header}>
           <Text style={styles.headerText}>{header}</Text>
@@ -25,10 +24,9 @@ export const Card: React.FC<CardProps> = props => {
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#fff',
+    backgroundColor: COLOR.white,
     borderRadius: 10,
-    // padding: 16,
-    shadowColor: '#000',
+    shadowColor: COLOR.black,
     shadowOffset: {width: 0, height: 2},
     shadowOpacity: 0.1,
     shadowRadius: 5,
@@ -36,7 +34,7 @@ const styles = StyleSheet.create({
     marginVertical: 16,
   },
   header: {
-    backgroundColor: '#3C6CE7',
+    backgroundColor: COLOR.buttonHardColor,
     borderTopLeftRadius: 10,
     borderTopRightRadius: 10,
     padding: 16,
