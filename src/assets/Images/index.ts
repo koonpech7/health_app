@@ -1,0 +1,11 @@
+export const AVATAR = require('./avatar.png');
+export const MEDICINES = require('./medicine.png');
+export const HOME_ICON = require('./home-icon.png');
+export const CHAT_ICON = require('./chat-icon.png');
+export const FAST_TUNDER_CON = require('./fast-thunder-icon.png');
+export const TRUCK_ICON = require('./truck-icon.png');
+export const STORE_ICON = require('./store-icon.png');
+export const TRUCK_BLUE_ICON = require('./truck-blue-icon.png');
+export const STORE_BLACK_ICON = require('./store-black-icon.png');
+export const WARNING_ICON = require('./warning-icon.png');
+export const PAOTANG = require('./paotang_payment.png');
